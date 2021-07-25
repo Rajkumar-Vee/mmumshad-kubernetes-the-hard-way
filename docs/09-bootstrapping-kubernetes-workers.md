@@ -24,6 +24,7 @@ master-1$ cat > openssl-worker-1.cnf <<EOF
 req_extensions = v3_req
 distinguished_name = req_distinguished_name
 [req_distinguished_name]
+
 [ v3_req ]
 basicConstraints = CA:FALSE
 keyUsage = nonRepudiation, digitalSignature, keyEncipherment
